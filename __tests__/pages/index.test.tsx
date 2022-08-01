@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import nock from 'nock';
-import '@testing-library/jest-dom'
 import Home from '../../pages';
+import '@testing-library/jest-dom'
 
 // User story: como usuário, eu gostaria de enviar um email para outro usuário.
 // AC1: Criação da tela de envio de email como no layout a seguir:
